@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Shop</title>
+    <meta name="description" content="Магазин женской одежды">
+    <meta name="keywords" content="Женская одежда, одежда, женское, купальник, свитшот">
+    <!-- Responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- OG Tags -->
+    <meta property="og:title" content="Womazing">
+    <meta property="og:description" content="Магазин женской одежды">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="https://sitename.ru/img/preview.jpg">
+    <meta property="og:site_name" content="Womazing">
+    <!-- Styling -->
+    <meta name="theme-color" content="#F1EADC">
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="assets/img/icon/favicon.png">
+    <!-- CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/slick-theme.css">
+    <link rel="stylesheet" href="assets/css/icomoon/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+    <header id="header" class="header">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class=" col-2 col-lg-2">
+                    <a href="#" class="logo">
+                        <img src="assets/img/icon/logo.png" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-5 col-5 ">
+                    <nav class="menu">
+                        <ul class="menu__list d-flex">
+                            <li class="menu__list-item">
+                                <a class="menu__list-link active" href="index.html" target="blank">Главная</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a class="menu__list-link" href="shop.html">Магазин</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a class="menu__list-link" href="about brand.html">О бренде</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a class="menu__list-link" href="contact.html">Контакты</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-lg-3">
+                    <ul class="menu__tel d-flex">
+                        <li class="menu__tel-item">
+                            <a href="#" class="menu__tel-link" id="btn-open">
+                                <span class="icon-phone-call"></span>
+                            </a>
+                        </li>
+                        <li class="menu__tel-item">
+                            <a href="tel:+7495823-54-12" class="menu__tel-link menu__tel-link--phone">
+								+7 (495) 823-54-12
+							</a>
+                        </li>
+                        <li class="menu__tel-item">
+                            <a href="#" class="menu__tel-link">
+                                <img src="assets/img/icon/shopping-bags.svg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Modal -->
+    <div id="wrapper-modal">
+        <div id="overlay"></div>
+        <div id="modal-window" class="modal-window">
+            <div id="btn-close" class="close-btn">+</div>
+            <h3 class="modal-title">Заказать обратный звонок</h3>
+            <form action="mail.php" id="form_one" class="form-modal form">
+
+                <input type="text" name="firstName" class="form-modal__input" placeholder="Имя" required>
+                <input type="text" name="emailName" class="form-modal__input" placeholder="E-mail" required>
+                <input type="phone" name="phoneNumber" class="form-modal__input" placeholder="Телефон" required>
+                <button data-submit type="submit" class="btn-form btn-standart">Заказать звонок</button>
+            </form>
+        </div>
+    </div>
+    <section class="store">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="store-title title-page">Магазин</h1>
+                    <div class="store-title__subtitle subtitle">
+                        <p>Главная </p> <span> — </span>
+                        <p> test</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-12-lg">
+                    <div class="store-toggle">
+                        <nav>
+                            <div class="toggle__inner">
+                                <a class="toggle__link active" href="#" data-btn="1">Все</a>
+                                <a class="toggle__link" href="#" data-btn="2">Пальто</a>
+                                <a class="toggle__link" href="#">Свитшоты</a>
+                                <a class="toggle__link" href="#">Кардиганы</a>
+                                <a class="toggle__link" href="#">Толстовки</a>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="store-show">
+                        <p>
+                            Показано
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-12-lg">
+                    <div>
+                        <div class="card__wrapper d-flex justify-content-between ">
+                            <div class="cards">
+                                <div class="card">
+                                    <div class="card__imgs">
+                                        <img class="card__img" src="assets/img/photo/collection1.jpg" alt="">
+                                    </div>
+                                    <a href="shop-card.html" class="card__link"></a>
+                                </div>
+                                <div class="card__name">Футболка USA</div>
+                                <div class="card__text d-flex justify-content-center">
+                                    <div class="card__price-cross-out">
+                                        <span>$</span>229
+                                    </div>
+                                    <div class="card__price">
+                                        <span>$</span>129
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="cards">
+                                <div class="card">
+                                    <div class="card__imgs">
+                                        <img class="card__img" src="assets/img/photo/collection2.jpg" alt="">
+                                    </div>
+                                    <a href="shop-card.html" class="card__link"></a>
+                                </div>
+                                <div class="card__name">Купальник Glow</div>
+                                <div class="card__price">
+                                    <span>$</span>129
+                                </div>
+                            </div>
+                            <div class="cards">
+                                <div class="card">
+                                    <div class="card__imgs">
+                                        <img class="card__img" src="assets/img/photo/collection3.jpg" alt="">
+                                    </div>
+                                    <a href="shop-card.html" class="card__link"></a>
+                                </div>
+                                <div class="card__name">Свитшот Sweet Shot</div>
+                                <div class="card__price">
+                                    <span>$</span>129
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="card__wrapper d-flex justify-content-between">
+                            <div class="cards">
+                                <div class="card">
+                                    <div class="card__imgs">
+                                        <img class="card__img" src="assets/img/photo/collection1.jpg" alt="">
+                                    </div>
+                                    <a href="shop-card.html" class="card__link"></a>
+                                </div>
+                                <div class="card__name">Футболка USA</div>
+                                <div class="card__text d-flex justify-content-center">
+                                    <div class="card__price-cross-out">
+                                        <span>$</span>229
+                                    </div>
+                                    <div class="card__price">
+                                        <span>$</span>129
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="cards">
+                                <div class="card">
+                                    <div class="card__imgs">
+                                        <img class="card__img" src="assets/img/photo/swimsuit1.jpg" alt="">
+                                    </div>
+                                    <a href="shop-card.html" class="card__link"></a>
+                                </div>
+                                <div class="card__name">Купальник Glow</div>
+                                <div class="card__price">
+                                    <span>$</span>129
+                                </div>
+                            </div>
+                            <div class="cards">
+                                <div class="card">
+                                    <div class="card__imgs">
+                                        <img class="card__img" src="assets/img/photo/sweatshot1.jpg" alt="">
+                                    </div>
+                                    <a href="shop-card.html" class="card__link"></a>
+                                </div>
+                                <div class="card__name">Свитшот Sweet Shot</div>
+                                <div class="card__price">
+                                    <span>$</span>129
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card__wrapper d-flex justify-content-between">
+                            <div class="cards">
+                                <div class="card">
+                                    <div class="card__imgs">
+                                        <img class="card__img" src="assets/img/photo/collection1.jpg" alt="">
+                                    </div>
+                                    <a href="shop-card.html" class="card__link"></a>
+                                </div>
+                                <div class="card__name">Футболка USA</div>
+                                <div class="card__text d-flex justify-content-center">
+                                    <div class="card__price-cross-out">
+                                        <span>$</span>229
+                                    </div>
+                                    <div class="card__price">
+                                        <span>$</span>129
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="cards">
+                                <div class="card">
+                                    <div class="card__imgs">
+                                        <img class="card__img" src="assets/img/photo/swimsuit2.jpg" alt="">
+                                    </div>
+                                    <a href="shop-card.html" class="card__link"></a>
+                                </div>
+                                <div class="card__name">Купальник Glow</div>
+                                <div class="card__price">
+                                    <span>$</span>129
+                                </div>
+                            </div>
+                            <div class="cards">
+                                <div class="card">
+                                    <div class="card__imgs">
+                                        <img class="card__img" src="assets/img/photo/sweatshirt2.jpg" alt="">
+                                    </div>
+                                    <a href="shop-card.html" class="card__link"></a>
+                                </div>
+                                <div class="card__name">Свитшот Sweet Shot</div>
+                                <div class="card__price">
+                                    <span>$</span>129
+                                </div>
+                            </div>
+                        </div>
+                        <div>Показано</div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-12-lg">
+                    <div class="number d-flex justify-content-center">
+
+                        <a href="#" class="num number__one active">1</a>
+                        <a href="#" class="num number__two">2</a>
+                        <a href="#" class="num number__there">3</a>
+                        <!-- <a href="#" class="number__arrows"></a> -->
+                        <a href="#" class="num">»</a>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class=" col-2 col-lg-2">
+                    <a href="index.html" class="logo">
+                        <img src="assets/img/icon/logo.png" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-5 col-5 offset-lg-1 ">
+                    <nav class="menu">
+                        <ul class="menu__list d-flex">
+                            <li class="menu__list-item">
+                                <a class="menu__list-link active" href="index.html">Главная</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a class="menu__list-link" href="shop.html">Магазин</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a class="menu__list-link" href="about brand.html">О бренде</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a class="menu__list-link" href="contact.html">Контакты</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-lg-2 offset-lg-2">
+                    <ul class="menu__tel">
+                        <li class="menu__tel-item">
+                            <a href="tel:+74958235412" class="menu__tel-link--phone tel">
+								+7 (495) 823-54-12
+							</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row align-items-center justify-content-between">
+                <div class=" col-3 col-lg-3">
+                    <div class="reserved">
+                        <p class="reserved__text-1">
+                            © Все права защищены
+                        </p>
+                        <p class="reserved__text-2">
+                            Политика конфиденциальности
+                        </p>
+                        <p class="reserved__text-3">
+                            Публичная оферта
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-4 offset-lg-1 ">
+                    <div class="shop">
+                        <a href="#">Пальто</a>
+                        <a href="#">Свитшоты</a>
+                        <a href="#">Кардиганы</a>
+                        <a href="#">Толстовки</a>
+                    </div>
+                </div>
+                <div class="col-lg-2 offset-lg-2">
+                    <div class="social">
+                        <a href="mailto:hello@womazing.com" target="_blank" rel="noopener noreferrer" class="social__mail">
+							hello@womazing.com
+						</a>
+                        <div class="social__items">
+                            <a class="social-instagram" href="#">
+                                <span class="icon-instagram"></span>
+                            </a>
+                            <a class="social-facebook" href="#">
+                                <span class="icon-facebook2"></span>
+                            </a>
+                            <a class="social-twiter" href="#">
+                                <span class="icon-twitter"></span>
+                            </a>
+                        </div>
+                        <a class="social-pay" href="#">
+                            <img src="assets/img/icon/visa-mastercard.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+    <!-- Jquery, Bootstrap -->
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Contact</title>
+	<meta name="description" content="Магазин женской одежды">
+	<meta name="keywords" content="Женская одежда, одежда, женское,толстовки, кардиган, пальто, купальник, свитшот">
+	<!-- Responsive -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- OG Tags -->
+	<meta property="og:title" content="Womazing">
+	<meta property="og:description" content="Магазин женской одежды">
+	<meta property="og:type" content="article">
+	<meta property="og:image" content="https://sitename.ru/img/preview.jpg">
+	<meta property="og:site_name" content="Womazing">
+	<!-- Styling -->
+	<meta name="theme-color" content="#F1EADC">
+	<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+	<link rel="icon" type="image/png" href="assets/img/icon/favicon.png">
+	<!-- CSS -->
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/bootstrap-reboot.min.css">
+	<link rel="stylesheet" href="assets/css/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/slick.css">
+	<link rel="stylesheet" href="assets/css/slick-theme.css">
+	<link rel="stylesheet" href="assets/css/icomoon/style.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+	<header id="header" class="header">
+		<div class="container">
+			<div class="row align-items-center justify-content-between">
+				<div class=" col-2 col-lg-2">
+					<a href="#" class="logo">
+						<img src="assets/img/icon/logo.png" alt="">
+					</a>
+				</div>
+				<div class="col-lg-5 col-5 ">
+					<nav class="menu">
+						<ul class="menu__list d-flex">
+							<li class="menu__list-item">
+								<a class="menu__list-link active" href="index.html" target="blank">Главная</a>
+							</li>
+							<li class="menu__list-item">
+								<a class="menu__list-link" href="shop.html" target="blank">Магазин</a>
+							</li>
+							<li class="menu__list-item">
+								<a class="menu__list-link" href="about brand.html">О бренде</a>
+							</li>
+							<li class="menu__list-item">
+								<a class="menu__list-link" href="contact.html">Контакты</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<div class="col-lg-3">
+					<ul class="menu__tel d-flex">
+						<li class="menu__tel-item">
+							<a href="#" class="menu__tel-link" id="btn-open">
+								<span class="icon-phone-call"></span>
+							</a>
+						</li>
+						<li class="menu__tel-item">
+							<a href="tel:74958235412" class="menu__tel-link menu__tel-link--phone">
+								+7 (495) 823-54-12
+							</a>
+						</li>
+						<li class="menu__tel-item">
+							<a href="#" class="menu__tel-link">
+								<img src="assets/img/icon/shopping-bags.svg" alt="">
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- Modal -->
+	<div id="wrapper-modal">
+		<div id="overlay"></div>
+		<div id="modal-window" class="modal-window">
+			<div id="btn-close" class="close-btn">+</div>
+			<h3 class="modal-title">Заказать обратный звонок</h3>
+			<form action="mail.php" id="form_one" class="form-modal form">
+
+				<input type="text" name="firstName" class="form-modal__input" placeholder="Имя" required>
+				<input type="text" name="emailName" class="form-modal__input" placeholder="E-mail" required>
+				<input type="phone" name="phoneNumber" class="form-modal__input" placeholder="Телефон" required>
+				<button data-submit type="submit" class="btn-form btn-standart">Заказать звонок</button>
+			</form>
+		</div>
+	</div>
+	<section class="contact">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<h1 class="contact-title title-page">Контакты</h1>
+					<div class="contact-title__subtitle subtitle">
+						<p>Главная </p> <span> — </span>
+						<!-- <p> О бренде</p><span> — </span> -->
+						<p>Контакты</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12">
+					<div class="contact-map">
+						<iframe
+							src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d20329.433354885936!2d30.519279674755857!3d50.437763277881835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1603131744489!5m2!1sru!2sua"
+							width="1110" height="476" frameborder="0" style="border:0;" allowfullscreen=""
+							aria-hidden="false" tabindex="0"></iframe>
+					</div>
+				</div>
+			</div>
+			<div class="row ">
+				<div class="col-3">
+					<div class="contact__tel">
+						<div class="contact__tel-name contact-contact">Телефон</div>
+						<div class="contact__tel-phone">
+							<a href="tel:+74958235412" class="contact__tel-number">+7 (495) 823-54-12</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-2 col-lg-2">
+					<div class="contact__mail">
+						<div class="contact__mail-name contact-contact">E-mail</div>
+						<a href="mailto:info@sitename.com">info@sitename.com</a>
+					</div>
+				</div>
+				<div class="col-5 offset-1 col-lg-5">
+					<div class="contact__address">
+						<div class="contact__address-name contact-contact">Адрес</div>
+						<a href="https://goo.gl/maps/bSeo29Jjm2iWKXsZ6" target="_blank" rel="noopener noreferrer">г.
+							Москва, 3-я улица Строителей, 25</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-5 col-lg-5">
+					<div class="contact-form">
+						<h3 class="form__title">Напишите нам</h3>
+						<form action="mail.php" method="POST" name="contact" class="form__contact">
+							<div class="col-md-10">
+								<input class="form__name" type="name" name="name" placeholder="Имя" required>
+							</div>
+							<div class="col-md-10">
+								<input class="form__email" type="email" name="email" placeholder="E-mail" required>
+							</div>
+							<div class="col-md-10">
+								<input class="form__phone" type="phone" name="phone" placeholder="Телефон" required>
+							</div>
+							<div class="col-md-12">
+								<textarea class="form__textarea" name="message" id="form__text"
+									placeholder="Сообщение"></textarea>
+							</div>
+
+							<button data-submit type="submit" class="btn-standart form__btn">Отправить</button>
+						</form>
+						<div class="form-send">Сообщение успешно отправлено</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer class="footer">
+		<div class="container">
+			<div class="row align-items-center justify-content-between">
+				<div class=" col-2 col-lg-2">
+					<a href="#" class="logo">
+						<img src="assets/img/icon/logo.png" alt="">
+					</a>
+				</div>
+				<div class="col-lg-5 col-5 offset-lg-1 ">
+					<nav class="menu">
+						<ul class="menu__list d-flex">
+							<li class="menu__list-item">
+								<a class="menu__list-link active" href="index.html">Главная</a>
+							</li>
+							<li class="menu__list-item">
+								<a class="menu__list-link" href="shop.html">Магазин</a>
+							</li>
+							<li class="menu__list-item">
+								<a class="menu__list-link" href="about brand.html">О бренде</a>
+							</li>
+							<li class="menu__list-item">
+								<a class="menu__list-link" href="contact.html">Контакты</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<div class="col-lg-2 offset-lg-2">
+					<ul class="menu__tel">
+						<li class="menu__tel-item">
+							<a href="tel:+74958235412" class="menu__tel-link--phone tel">
+								+7 (495) 823-54-12
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="row align-items-center justify-content-between">
+				<div class=" col-3 col-lg-3">
+					<div class="reserved">
+						<p class="reserved__text-1">
+							© Все права защищены
+						</p>
+						<p class="reserved__text-2">
+							Политика конфиденциальности
+						</p>
+						<p class="reserved__text-3">
+							Публичная оферта
+						</p>
+					</div>
+				</div>
+				<div class="col-lg-4 col-4 offset-lg-1 ">
+					<div class="shop">
+						<a href="#">Пальто</a>
+						<a href="#">Свитшоты</a>
+						<a href="#">Кардиганы</a>
+						<a href="#">Толстовки</a>
+					</div>
+				</div>
+				<div class="col-lg-2 offset-lg-2">
+					<div class="social">
+						<a href="mailto:info@sitename.com" class="social__mail">
+							hello@womazing.com
+						</a>
+						<div class="social__items">
+							<a class="social-instagram" href="#">
+								<span class="icon-instagram"></span>
+							</a>
+							<a class="social-facebook" href="#">
+								<span class="icon-facebook2"></span>
+							</a>
+							<a class="social-twiter" href="#">
+								<span class="icon-twitter"></span>
+							</a>
+						</div>
+						<a class="social-pay" href="#">
+							<img src="assets/img/icon/visa-mastercard.png" alt="">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+
+
+
+
+
+	<!-- Jquery, Bootstrap -->
+	<script src="assets/js/jquery.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+
+	<script src="assets/js/slick.min.js"></script>
+	<script src="assets/js/main.js"></script>
+</body>
+
+</html>
